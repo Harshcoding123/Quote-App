@@ -1,0 +1,70 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+body{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+
+    
+    background-color: #bbc6fa;
+
+}
+#card{
+    width: 40rem;
+    height: 25rem;
+    background-color: aliceblue;
+    margin-top: 7rem;
+    border-radius: 30px;
+
+}
+h1{
+    text-align: center;
+    margin-top:35px;
+
+    
+}
+h3{
+    text-align: center;
+    font-size: large;
+    margin-top: 4rem;
+    /* background-color: aqua; */
+    height: 7rem;
+}
+#boxes{
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+   
+
+}
+
+.b{
+    cursor: pointer;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 9rem;
+    height: 2.7rem;
+    /* background-color: rgba(19, 19, 100, 0.605); */
+    border: solid;
+    border-width: thin;
+    /* border-color: aqua; */
+}
+#b1{
+    /* background-color: rgb(1, 55, 249); */
+    background: rgb(23, 124, 229);
+}
+#b2{
+    gap: 5px;
+}
+#author{
+    text-align: end;
+    margin-right: 20px;
+
+}
